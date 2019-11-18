@@ -1,1 +1,40 @@
 @import "semantic-ui";
+td, th {
+    padding-left: 50px;
+  }
+  
+  body {
+    background-color: #D9D9D9;
+    
+  }
+  
+  button a {
+    color: white;
+    
+  }
+  
+  a  {
+    color: black;
+  }
+  
+  .top-title {
+    margin-left: 50px;
+  }
+  
+  li {
+    text-decoration: none;
+    list-style: none;
+    
+  }
+  
+  nav {
+    display: flex;
+    
+  }
+  button {
+    margin: 20px;
+  }
+  
+  .top {
+    margin-top: 30px;
+  }
