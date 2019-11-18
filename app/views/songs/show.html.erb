@@ -1,0 +1,12 @@
+<h1>Song#show</h1>
+<div class="ui card">
+  <div class="content">
+    <p class="header">
+      <%= @song.name %> <%= @song.name %>
+    </p>
+  </div>
+  <div class="extra content">
+    <%= link_to 'Edit', edit_song_path(@song) %> |
+    <%= link_to 'Back', songs_path %>
+  </div>
+</div>

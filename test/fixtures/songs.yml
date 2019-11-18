@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist: MyString
+  genre: MyString
+  top100: MyString
+  boolean: MyString
+  top50: false
+  top25: false
+
+two:
+  artist: MyString
+  genre: MyString
+  top100: MyString
+  boolean: MyString
+  top50: false
+  top25: false

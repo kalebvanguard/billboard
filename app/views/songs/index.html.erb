@@ -1,0 +1,22 @@
+<h1 class="ui header">All Songs</h1>
+<table class="ui striped table">
+  <thead>
+    <tr class="center aligned">
+      <th colspan="4"></th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @songs.each do |song| %>
+      <tr class="center aligned">
+        <td>
+        </td>
+        <td><%= link_to "Show", song_path(song) %></td>
+        <td><%= link_to "Edit", edit_song_path(song) %></td>
+        <td><%= link_to "Destroy", song_path(song), method: :delete %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br />
+<%= link_to "New song", new_song_path %>
